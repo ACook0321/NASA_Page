@@ -2,9 +2,123 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
 
 }
 .main-container {
-  background-color: red ;
+  background-color: red;
+  width: auto;
+  height: auto;
+  max-width: 850;
+  max-height: 800;
+}
+
+.container-1 {
+  display: flex;
+  background-image: url("space.jpg");
+  height: 450px;
+  width: auto;
+}
+
+.nasa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.container-2 {
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:rgb(230,230,230);
+  height: 324px;
+  width: auto; 
+}
+
+.list{
+  list-style-type: none;
+  padding: 0 0 180 0;
+  margin: 0;
+}
+
+.title-1{
+  margin: 0 0 15 0;
+  font-size: 20;
+  font-family: 'Kanit', sans-serif
+  
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  background-color: rgb(230,230,230);
+  height: 100%;
+  width:  33%;
+  font-size: 15;  
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.title-2{
+  margin: 0 0 15 0;
+  padding: 0 0 0 0;
+  font-size: 20;
+  font-family: 'Kanit', sans-serif
+}
+
+.office {
+  display: flex;
+  flex-flow: column;
+  
+  background-color: rgb(230,230,230);
+  height: 100%;
+  width: 33%;
+  
+}
+
+.list-2{
+  list-style-type: none;
+  padding: 0 0 200 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  font-size: 15;  
+  font-family: 'Kanit', sans-serif;
+
+}
+
+.title-3 {
+  margin: 0 0 15 0;
+  padding: 0 0 0 0;
+  font-size: 20;
+  font-family: 'Kanit', sans-serif
+}
+
+.contact {
+  display: flex;
+  flex-flow: column;
+    background-color: rgb(230,230,230);
+  height: 100%;
+  width:  33%;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  font-size: 15;  
+  font-family: 'Kanit', sans-serif;
+}
+
+.submit {
+  width: 35%;
+  height: 15%;
+  font-size: 15;  
+  font-family: 'Kanit', sans-serif;
 }
