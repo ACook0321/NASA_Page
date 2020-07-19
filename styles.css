@@ -16,7 +16,7 @@ body {
 
 .container-1 {
   display: flex;
-  background-image: url("space.jpg");
+  background-image: url("Space.jpg");
   height: 450px;
   width: auto;
 }
